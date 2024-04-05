@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "hidapi.h": "c",
+        "sdl.h": "c",
+        "locos.h": "c",
+        "stdbool.h": "c",
+        "xlib.h": "c",
+        "stdio.h": "c"
+    }
+}

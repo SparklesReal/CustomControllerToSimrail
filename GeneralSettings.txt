@@ -1,0 +1,5 @@
+https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm
+throttle up=43
+throttle down=45
+shunt up=111
+shunt down=106
