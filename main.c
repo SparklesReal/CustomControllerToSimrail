@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "locos.h"
 
 int main(int argc, char* argv[]) {
