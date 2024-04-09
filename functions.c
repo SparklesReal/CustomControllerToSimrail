@@ -46,7 +46,7 @@ void loadButtonSettings() {
     char line[100];
     while (fgets(line, sizeof(line), file)) {// Don't overload, please :3
         i++;
-        printf("DEBUG: %s", line);
+        printf("DEBUG: %s\n", line);
         if (i == 1)
             continue;
         char *data = strtok(line, "=");

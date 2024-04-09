@@ -51,7 +51,6 @@ int EU07() {
         lowestValue = SDL_JoystickGetAxis(joystick, 0);
         SDL_Delay(10);
     }
-    printf("%i", lowestValue);
     i = 0;
     printf("Hold the wheel as right as you can\n");
     while (i < 500) {
