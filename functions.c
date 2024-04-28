@@ -19,7 +19,8 @@ void simulateKeyPress(int keycode) {
     input.ki.dwExtraInfo = 0;
     input.ki.wVk = keycode;
     input.ki.dwFlags = 0;
-    SendInput(1, &input, sizeof(INPUT));
+    if(SendInput(1, &input, sizeof(INPUT)) != 1)
+        printf(L"SendInput failed: 0x%x\n", HRESULT_FROM_WIN32(GetLastError()));
 #else
     Display *display = XOpenDisplay(NULL);
     if (display == NULL) {
