@@ -9,14 +9,14 @@ int main(int argc, char* argv[]) {
     }
 
     int input = 0;
-    scanf("%i", &input, sizeof(input));
+    scanf("%i", &input);
 
     switch (input) {
     case 1:
         EU07();
         break;
     case 2: 
-        printf("That is just a test case lol\n");
+        ET22();
         break;
     default:
         printf("Invalid input!\n");

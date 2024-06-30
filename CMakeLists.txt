@@ -27,7 +27,7 @@ else()
     find_library(XTEST_LIBRARY NAMES Xtst)
 endif()
 
-add_executable(SimrailController main.c EU07.c functions.c)
+add_executable(SimrailController main.c EU07.c ET22.c functions.c)
 
 target_include_directories(SimrailController PRIVATE ${SDL2_INCLUDE_DIRS})
 target_link_libraries(SimrailController PRIVATE ${SDL2_LIBRARIES})

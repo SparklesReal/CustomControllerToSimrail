@@ -1,6 +1,4 @@
 #pragma once
-#ifndef FUNCTIONS_H
-#define FUNCTIONS_H
 
 #ifdef _WIN32
 #include <windows.h>
@@ -14,5 +12,4 @@ extern int buttons[4];
 
 extern void simulateKeyPress(int keycode);
 extern void loadButtonSettings();
-
-#endif
+extern void steeringWheelCalc(int steeringStates);
